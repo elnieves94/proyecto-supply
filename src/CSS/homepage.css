@@ -1,0 +1,13 @@
+.carousel{
+    width: 70%;
+    /* background-color: #84a9ac; */
+}
+.carousel-inner img{
+    width: 60%;
+}
+.carousel-control-prev{
+    background-color: rgba(0, 0, 0, 0.240);
+}
+.carousel-control-next{
+    background-color: rgba(0, 0, 0, 0.240);
+}

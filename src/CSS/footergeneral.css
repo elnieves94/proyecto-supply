@@ -1,0 +1,14 @@
+.boxFooter{
+    width: 20%;
+}
+.fbLogo{
+    width: 32px;
+}
+.contenedorFooter{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+li{
+    list-style: none;
+    margin-left: 0px;
+}
