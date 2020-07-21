@@ -2,12 +2,12 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import imgCarruselUno from '../Imagenes/syhLogo.jpg'
 import imgCarruselDos from '../Imagenes/aduanero.jpg'
-import imgCarruselTres from '../Imagenes/imgCarruselTres.jpg'
+import imgCarruselTres from '../Imagenes/logistica.jpg'
 import '../CSS/homepage.css'
 
 const Home = () => {
     return(
-        <div className="d-flex flex-column align-items-center">
+        <div className="d-flex flex-column align-items-center boxHomeGeneral">
             <h1>Tus aliados en logística y aduanas</h1>
             <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">

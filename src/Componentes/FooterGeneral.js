@@ -30,7 +30,7 @@ const FooterGeneral = () => {
             </div>
             <div className="boxFooter">
                 <h6>Síguenos</h6>
-                <a href="https://www.facebook.com/syhconsultores1" target="_blank"><img src={fbLogo} className="fbLogo"></img></a>
+                <a href="https://www.facebook.com/syhconsultores1" target="_blank"><img src={fbLogo} className="fbLogo"></img> S&H Consultores</a>
             </div>
         </div>
     );

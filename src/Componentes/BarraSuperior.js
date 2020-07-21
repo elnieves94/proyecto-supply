@@ -8,17 +8,18 @@ import {
     Link
   } from "react-router-dom";
   import '../CSS/barrasuperior.css'
+  import Home from '../Vistas/Home';
+  import Nosotros from '../Vistas/Nosotros';
 
 const BarraSuperior = () => {
     return(
-        <div className="d-flex justify-content-between contenedorBarraSuperior">
-            <div>
-                <Router>
+        <>
+            <Router>
+            <div className="d-flex justify-content-between contenedorBarraSuperior fixed-top">
+                <div>
                     <Link to="/"><img src={logo}/></Link>
-                </Router>
-            </div>
-            <div>
-                <Router>
+                </div>
+                <div>
                     <button className="btn btn-link"><Link to="/">Inicio</Link></button>
                     <button className="btn btn-link"><Link to="/nosotros">Nosotros</Link></button>
                     <button className="btn btn-link">
@@ -43,9 +44,20 @@ const BarraSuperior = () => {
                         </div>
                     </button>
                     <button className="btn btn-link"><Link to="/inscripcion">Inscripción</Link></button>
-                </Router>
+                </div>
             </div>
-        </div>
+                <Switch>
+                    <Route exact path="/">
+                        <Home />
+                    </Route>
+                    <Route exact path="/nosotros">
+                        <Nosotros />
+                    </Route>
+                </Switch>
+            </Router>
+                
+        </>
+
     );
 }
 
